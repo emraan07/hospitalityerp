@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLogic</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iosoon-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iosoon-theme12.css">
+</head>
+<body >
+    <div class="form-body" style="background-color: #2751FB;">
+        <canvas id="pagebg" resize></canvas>
+        <div class="row">
+            <div class="form-holder col-sm-12 col-md-6 col-lg-5">
+                <div class="form-content">
+                    <div class="form-items">
+                        <div class="form-row logo-social">
+                            <div class="col-6">
+                                <div class="website-logo-inside">
+                                    <a>
+                                        <div class="logo">
+                                            <img class="logo-size" src="images/iLogic Software .png" alt="">
+                                            <h4  style="color: rgba(255, 2555, 255, 0.5); padding-left: 17px;"> Solutions for Hotel Industry</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="col-6">
+                                <div class="other-links no-bg-icon">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div> -->
+                        </div>
+                        <!-- <h3>Join The High Performance Summit 2019</h3> -->
+                        <p>For any query please put your details here, <br> else proceed to website.</p>
+                        <form action="/query" method="post" class="form-row mb-0">
+                            
+                            <input class="form-control" id="input" type="text" name="name" placeholder="Your Name" required>
+                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                            <input class="form-control" type="phone" name="phone" placeholder="Mobile Number" required>
+                            <textarea name="query" class="form-control" type="text" placeholder="Message Detail" required></textarea>
+                            <div class="form-button" style="width: 100%;">
+                                <button style="width: 100%;"s id="submit" type="submit" class="ibtn">Submit</button>
+                            </div>
+                        </form>
+                        <form action="/home" method="post">
+                            <div class="form-button mt-0" style="width: 100%;">
+                                <button style="width: 100%;" id="button" type="submit" class="ibtn">Proceed to Website</button>
+                            </div>
+                        </form>
+                        <!-- <h5>Event will starts in</h5>
+                        <div class="time-counter form-row other-style">
+                            <div class="days count col">
+                                <div class="num">38</div>
+                                <div class="label">Days</div>
+                            </div>
+                            <div class="hours count col">
+                                <div class="num">13</div>
+                                <div class="label">Hrs</div>
+                            </div>
+                            <div class="minutes count col">
+                                <div class="num">59</div>
+                                <div class="label">Min</div>
+                            </div>
+                            <div class="seconds count col">
+                                <div class="num">30</div>
+                                <div class="label">Sec</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="img-holder-right mt-5 col-sm-12 col-md-6 col-lg-7">
+                <img src="images/Asset 1.png" alt="">
+            </div>
+        </div>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/paper-full.min.js"></script>
+<script src="js/animation6.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    function click() {
+        $('#input').prop('required', true);
+    }
+</script>
+</body>
+</html>

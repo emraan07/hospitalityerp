@@ -1,0 +1,288 @@
+body {
+  font-family: "Montserrat";
+  background: #2196f3;
+}
+.btn-lg {
+  margin: auto 1rem auto auto;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+#products p .products {
+  color: #1d6aa7;
+  font-weight: bold;
+  font-size: 3rem;
+}
+#products .p-large {
+  font-size: 2rem;
+}
+/* Products */
+.card {
+  position: relative;
+  min-width: 375px;
+  height: 50vh;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  /* margin: 30px; */
+  transition: 0.5s;
+}
+.col-md-4 {
+  width: 100%;
+}
+.card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+.card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+.card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+.card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card .box:hover {
+  transform: translateY(-50px);
+}
+
+.card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+/* Products end */
+#title {
+  background-color: #1d6aa7;
+  height: 100%;
+}
+.container-fluid {
+  padding: 3% 10%;
+}
+.mx-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+.nav-item {
+  /* margin: auto auto auto 40px; */
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.navbar {
+  /* align-items: baseline; */
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  /* background-color: black; */
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* .navbar-nav .nav-link {
+  font-family: "Montserrat";
+  background-color: black;
+} */
+
+/* Hero Image */
+
+.hero-image {
+  max-width: 100%;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 12%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+  display: none;
+}
+.icon-color {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon-color:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+/* Testimonial Section  */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  display: none;
+}
+#testimonials {
+  color: #3f3c3c;
+}
+.carousel {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  display: none;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  display: none;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1048px) {
+  #title {
+    text-align: center;
+  }
+  .hero-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 2%;
+  }
+}
+
+#cta {
+  text-align: center;
+  background-color: #ed4a65;
+  padding: 7% 15%;
+  display: none;
+}
+
+#cta h3 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  /* line-height: 1.5rem; */
+  color: #fff;
+}
+
+#cta button {
+  margin-top: 8%;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#footer i {
+  padding: 0% 1% 2%;
+  color: #3f3c3c;
+}
